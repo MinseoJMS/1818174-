@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/w3.css" />
+    <title>Welcome to Minseo's Web</title>
+    <style>
+        body {
+            width: 950px; margin: 0 auto;
+            background-color: #FFF0F5;
+        }
+        a { text-decoration: none; }
+        li {list-style-type: disc;}
+        .w-myfont {
+            font-family: "서평원 꺾깎체", Arial, Helvetica, sans-serif;
+        }
+        .container {display: flex;
+        }
+        .mySlides {display: flex;
+            flex-direction: row;}
+        .w3-left, .w3-right, .w3-badge {cursor: pointer}
+        .w3-badge {height:13px;width:13px;padding: 0}
+        .header_wrap {width:1200px; margin:0 auto;}
+    </style>
+</head>
+<body class="w3-content w3-margin-top" style="max-width: 950px">
+    <header class="w3-margin-top w3-contaner" >
+        <span class="w3-opennav w3-xlarge">&#9776;</span>
+        <h1>Minseo's Sweet Home</h1>
+    </header>
+
+    <div class="header_wrap"> 
+        <nav>
+            <ul class="w3-bar w3-pale-red"  style="width: 680px;">
+                <li class="w3-bar-item w3-button w3-hover-sand"><a href="Profile.html" class="w3-padding-large">Minseo Jeong</a></li>
+                <li class="w3-bar-item w3-button w3-hover-sand"><a href="Diary.html" class="w3-padding-large">Diary</a></li>
+                <li class="w3-bar-item w3-button w3-hover-sand"><a href="Photo.html" class="w3-padding-large">Photo</a></li>
+                <li class="w3-bar-item w3-button w3-hover-sand"><a href="Activity.html" class="w3-padding-large">Activity</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="w3-cell-row cover">
+    <section class="w3-left w3-container w3-margin-top w3-margin-bottom" style="max-width: 750px">
+        <iframe width="650" height="315" src="https://www.youtube.com/embed/nHFdz0lt6uU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <aside class="right">
+        <div class="login">
+            <h3>Log In</h3>
+            <form action="#">
+                아이디 : <input type="text" name="id"> <br/>
+                패스워드 : <input type="password" name="pass"> <br>
+                <input type="submit" value="로그인" />
+                <input type="reset" value="초기화" /> <br/>
+                <a href="register.html" target="_blank" id=refister>회원가입</a>
+                <a href="#" id="forgot">비밀번호 분실</a>
+            </form>
+            <br>
+            <br>
+        </div>
+        <div id="link">
+            <a href="http://www.donga.ac.kr">동아대학교</a><br>
+            <a href="http://www.naver.com">네이버</a><br>
+            <a href="https://www.instagram.com/minseo_oe/">Instagram</a><br>
+            <a href="start.html">스타트 페이지 이동</a><br>
+            <!--문서 내 이동-->
+            <a href="#photo">사진으로 이동</a>
+        </div>
+        </div>
+    </div>
+    </aside>
+    <footer>
+        <hr color="pink">
+        <ul>
+            <li>주소 : 부산광역시 중구</li>
+            <li>E-mail : letdrop@gmail.com</li>
+            <li>SNS : <a href="https://www.instagram.com/minseo_oe/">@minseo_oe</a> </li>
+        </ul>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &copy;Minseo Jeong
+
+
+    </footer>
+</body>
+</html>
